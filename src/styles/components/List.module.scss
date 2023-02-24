@@ -1,0 +1,8 @@
+.list{
+  a{
+    color: #FFF;
+    font-size: clamp(12px, 2vw, 20px);
+    padding: 0 clamp(5px, 3vw, 40px);
+    opacity: 0.8;
+  }
+}

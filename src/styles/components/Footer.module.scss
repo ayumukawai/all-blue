@@ -1,0 +1,12 @@
+.footer{
+  height: clamp(90px, 20vw, 120px);
+  background-color: #007fff;
+  text-align: center;
+  color: #FFF;
+  .footer-list{
+    height: clamp(50px, 10vw, 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

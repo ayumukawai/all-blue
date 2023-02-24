@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  background-color: #FFF;
+  z-index: 10;
+  .logo{
+    padding: clamp(5px, 5vw, 15px);
+    display: flex;
+    justify-content: center;
+    img{
+      height: auto;
+      width: clamp(300px, 30vw, 600px);
+    }
+  }
+
+  .login{
+    position: absolute; top: 10px; right: 0;
+    color: #00155F;
+    font-size: 15px;
+  }
+
+  .header-list{
+    height: clamp(50px, 10vw, 90px);
+    background-color: #1e00c3;
+    box-shadow: 0 5px #00005F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
